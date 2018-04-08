@@ -1,3 +1,5 @@
+package ru.lesson;
+
 public class Calculator {
     private int result;
 
@@ -7,19 +9,19 @@ public class Calculator {
         }
     }
 
-    public void minus(int first, int second) {
+    public void minus(final int first, final int second) {
         this.result = first - second;
     }
 
-    public void mult(int first, int second) {
+    public void mult(final int first, final int second) {
         this.result = first * second;
     }
 
-    public void div(int first, int second) {
+    public void div(final int first, final int second) {
         this.result = first / second;
     }
 
-    public void power(int first, int second) {
+    public void power(final int first, final  int second) {
         result = (int) Math.pow(first, second);
     }
 

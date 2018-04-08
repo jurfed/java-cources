@@ -1,3 +1,5 @@
+package ru.lesson;
+
 import java.util.Scanner;
 
 public class InterractRunner {

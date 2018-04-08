@@ -1,3 +1,5 @@
+package ru.lesson;
+
 public class Calculate {
     public static void main(String[] args) {
         int first = Integer.valueOf(args[0]);
